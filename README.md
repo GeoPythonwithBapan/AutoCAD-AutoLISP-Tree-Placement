@@ -129,11 +129,12 @@ This eliminates the need to manually insert the tree block at every point.
 
 ---
 
+
 ## 🎬 Demo
 
-A short demonstration of the AutoLISP routine showing the automated placement of `TREE` blocks at existing point locations.
+A short demonstration of the AutoLISP routine showing the automated placement of TREE blocks at existing point locations in AutoCAD.
 
-The workflow converts selected AutoCAD points into `TREE` blocks automatically, reducing repetitive manual placement work.
+[▶️ Watch Demo Video](AutoLISP_Tree_Automation.mp4)
 
 ---
 
