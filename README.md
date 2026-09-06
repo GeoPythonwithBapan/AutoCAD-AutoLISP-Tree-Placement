@@ -77,3 +77,116 @@ Before running the routine, make sure a block named:
 
 ```text
 TREE
+```
+
+is available in the AutoCAD drawing.
+
+The routine uses this predefined block name when placing tree symbols.
+
+### 2. Load the AutoLISP Routine
+
+1. Open AutoCAD.
+2. Type `APPLOAD` in the command line.
+3. Select `TreePlacement_AutoLISP.lsp`.
+4. Click **Load**.
+
+### 3. Run the Command
+
+After loading the routine, type:
+
+```text
+PT2BLK
+```
+
+in the AutoCAD command line.
+
+### 4. Select Points
+
+Select the required point locations from the drawing.
+
+The routine supports:
+
+- AutoCAD `POINT` entities
+- Civil 3D `AECC_COGO_POINT` entities
+
+Press **Enter** after selecting the required points.
+
+### 5. Enter Scale
+
+Enter the required insertion scale when prompted.
+
+If no scale is provided, the routine uses:
+
+```text
+1.0
+```
+
+### 6. Automatic Placement
+
+The routine reads the coordinates of the selected points and automatically inserts the `TREE` block at each location.
+
+This eliminates the need to manually insert the tree block at every point.
+
+---
+
+## 🎬 Demo
+
+A short demonstration of the AutoLISP routine showing the automated placement of `TREE` blocks at existing point locations.
+
+The workflow converts selected AutoCAD points into `TREE` blocks automatically, reducing repetitive manual placement work.
+
+---
+
+## 🖼️ Before & After
+
+### Before – Point Locations
+
+![Before](Before.png)
+
+### After – Automated TREE Block Placement
+
+![After](After.png)
+
+---
+
+## 📥 Download
+
+The AutoLISP routine is available in this repository:
+
+[`TreePlacement_AutoLISP.lsp`](TreePlacement_AutoLISP.lsp)
+
+Load the `.lsp` file into AutoCAD using **APPLOAD**, then run:
+
+```text
+PT2BLK
+```
+
+---
+
+## ✨ Key Benefits
+
+- Automates repetitive tree-block placement
+- Supports multiple point locations
+- Supports AutoCAD POINT entities
+- Supports Civil 3D COGO points
+- Uses existing point coordinates
+- Allows user-defined insertion scale
+- Reduces manual CAD production time
+- Useful for GIS/CAD workflow automation
+
+---
+
+## 📌 Requirements
+
+- AutoCAD
+- AutoLISP support
+- A predefined block named `TREE`
+- Point or COGO point locations in the drawing
+
+---
+
+## 👨‍💻 Author
+
+**GeoPythonwithBapan**
+
+GIS | Remote Sensing | UAV | AutoCAD | AutoLISP | GIS/CAD Automation
