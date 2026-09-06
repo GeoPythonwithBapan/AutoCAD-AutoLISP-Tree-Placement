@@ -187,6 +187,6 @@ PT2BLK
 
 ## 👨‍💻 Author
 
-**GeoPythonwithBapan**
+**Bapan Dutta**
 
 GIS | Remote Sensing | UAV | AutoCAD | AutoLISP | GIS/CAD Automation
